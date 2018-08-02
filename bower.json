@@ -1,0 +1,16 @@
+{
+  "name": "adapt-menu-strip",
+  "version": "0.0.1",
+  "framework": ">=2",
+  "homepage": "https://github.com/taylortom/adapt-menu-strip",
+  "displayName": "Strip menu",
+  "menu": "stripmenu",
+  "description": "A simple menu formed of strips",
+  "main": "js/adapt-menu-strip.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-menu"
+  ],
+  "license": "GPLv3",
+  "targetAttribute": "_stripMenu"
+}

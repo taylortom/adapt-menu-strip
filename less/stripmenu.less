@@ -1,0 +1,29 @@
+.stripmenu-menu .menu-container .menu-container-inner {
+	max-width: 80%;
+	margin: 0 auto;
+	padding-bottom: 8%;
+
+	.menu-item {
+		margin-bottom: 2%;
+		border-radius: 3px;
+		overflow: hidden;
+	  border: 1px solid lighten(@tertiary-color, 30%);
+
+		&-inner {
+			margin: 0 !important;
+			max-width: none;
+			background-color: @tertiary-color;
+			color: @tertiary-color-inverted;
+			background-size: cover;
+			background-position: center;
+		  background-blend-mode: overlay;
+
+			.menu-item-title {
+				margin: 0 0 20px 0;
+			}
+			.menu-item-button {
+				text-align: right;
+			}
+		}
+	}
+}
